@@ -7,8 +7,8 @@ body {
 
 /* Header */
 header {
-  background: #c6e70b;
-  color: #070707;
+  background: #080808;
+  color: #fcf9f9;
   padding: 20px 0;
   display: flex;
   flex-direction: column;
@@ -16,7 +16,7 @@ header {
 }
 
 header a {
-  color: #050505;
+  color: #fdfcfc;
   text-decoration: none;
   padding: 10px 20px;
   display: inline-block;
@@ -66,8 +66,8 @@ header a:hover {
 /* Footer */
 footer {
   text-align: center;
-  background-color: #c6e70b;
-  color: rgb(7, 7, 7);
+  background-color: #070707;
+  color: rgb(253, 250, 250;
   padding: 15px;
   margin-top: 30px;
 }
