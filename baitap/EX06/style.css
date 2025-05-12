@@ -27,7 +27,7 @@ header {
   color: #fcf9f9;
   padding: 20px 0;
   text-align: center;
-  border-bottom: #f16405 3px solid;
+  border-bottom: #f1e105 3px solid;
 }
 
 header a {
@@ -57,7 +57,8 @@ header nav {
 
 header .highlight,
 header .current a {
-  color: #df5404;
+  color: #f1e105;
+  font-weight: bold;
 }
 
 header a:hover {
