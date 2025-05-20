@@ -1,0 +1,173 @@
+/* Global */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff;
+    color: #333;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .button_1 {
+    display: inline-block;
+    background: white;
+    color: #080808;
+    padding: 7px 20px;
+    border: 1px solid #0c1cf7;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .button_1:hover {
+    background: #0c1cf7;
+  }
+  
+  .dark {
+    background: #20f5d1;
+    color: #fd0606;
+    padding: 15px;
+    font-weight: bold;
+  }
+  
+  /* Header */
+  header {
+    background: #d5fa02;
+    padding: 30px 0 20px;
+    border-bottom: 2px solid #f70505;
+  }
+  
+  header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  header #branding {
+    margin-bottom: 10px;
+  }
+  
+  header #branding h1 {
+    margin: 0;
+    font-size: 40px;
+    color: #333;
+    text-align: center;
+  }
+  
+  header nav {
+    width: 100%;
+  }
+  
+  header ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 10px;
+  }
+  
+  header li {
+    display: inline;
+  }
+  
+  header a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: color 0.3s ease;
+  }
+  
+  header .highlight,
+  header .current a {
+    background: rgb(130, 214, 4);
+    color: #e8491d;
+  }
+  
+  header a:hover {
+    color: #555;
+  }
+  
+  /* Showcase */
+  #showcase {
+    min-height: 400px;
+    background: url('../img/showcase.jpg') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 60px 20px;
+    color: white;
+  }
+  
+  #showcase h1 {
+    font-size: 55px;
+    margin: 0 0 15px;
+  }
+  
+  #showcase p {
+    font-size: 20px;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  /* Newsletter */
+  #newsletter {
+    background: #03ec03;
+    color: #080202;
+    padding: 30px 20px;
+    text-align: center;
+  }
+  
+  #newsletter h1 {
+    margin: 0 0 15px;
+    font-size: 28px;
+  }
+  
+  #newsletter form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  
+  #newsletter input[type="email"] {
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  #newsletter .button_1 {
+    background: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    background-color: #e2f727;
+    color: rgb(197, 3, 3);
+    padding: 20px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
