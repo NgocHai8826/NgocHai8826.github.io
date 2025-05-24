@@ -1,0 +1,29 @@
+/* Tổng thể body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Header */
+  header {
+    background-color: #070707;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+     border-bottom: #f1e105 3px solid;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    background-color: #050505;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+}
+  

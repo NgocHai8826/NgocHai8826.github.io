@@ -1,0 +1,170 @@
+/* Global */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff;
+    color: #333;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .button_1 {
+    display: inline-block;
+    background: #051ce7;
+    color: #070707;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  .button_1:hover {
+    background: #f1f1f0;
+  }
+  
+  .dark {
+    background: #20f5d1;
+    color: #fd0606;
+    padding: 15px;
+    font-weight: bold;
+  }
+  
+  /* Header */
+  header {
+    background: #e7eb08;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  header #branding {
+    margin-bottom: 10px;
+  }
+  
+  header #branding h1 {
+    margin: 0;
+    font-size: 40px;
+    color: #333;
+    text-align: center;
+  }
+  
+  header nav {
+    width: 100%;
+  }
+  
+  header ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 10px;
+  }
+  
+  header li {
+    display: inline;
+  }
+  
+  header a {
+    color: #020202;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: inline-block;
+  border-radius: 5px;
+  border: 2px solid #ffffff;
+  transition: all 0.3s ease;
+  margin-right: 15px;
+  }
+  
+  header .highlight,
+  header .current a {
+    background: rgb(130, 214, 4);
+    color: #e8491d;
+    font-weight: bold;
+  }
+  
+  header a:hover {
+    color: #555;
+  }
+  
+  /* Showcase */
+  #showcase {
+    min-height: 400px;
+    background: url('../img/showcase.jpg') no-repeat center center/cover;
+    color: black;    
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  #showcase h1 {
+    font-size: 55px;
+    margin: 10px;
+  }
+  
+  #showcase p {
+    font-size: 20px;
+  }
+  
+  /* Newsletter */
+  #newsletter {
+    background: #03ec03;
+    color: #080202;
+    padding: 30px 20px;
+    text-align: center;
+  }
+  
+  #newsletter h1 {
+    margin: 0 0 15px;
+    font-size: 28px;
+  }
+  
+  #newsletter form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  
+  #newsletter input[type="email"] {
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  #newsletter .button_1 {
+    background: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    background-color: #e2f727;
+    color: rgb(197, 3, 3);
+    padding: 20px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  

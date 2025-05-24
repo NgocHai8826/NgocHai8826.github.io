@@ -1,0 +1,180 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #333;
+}
+
+/* Global */
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.button_1 {
+  display: inline-block;
+  background: #051ce7;
+  color: #070707;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.button_1:hover {
+    background: #0c1cf7;
+  }
+
+.dark {
+  background: #2bb6f7;
+  color: #f30303;
+  padding: 15px;
+  text-align: center;
+}
+
+/* Header **/
+header {
+  background: #e7eb08;
+  color: #070707;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header a {
+    color: #020202;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+    border-radius: 5px;
+    border: 2px solid #ffffff;
+    transition: all 0.3s ease;
+    margin-right: 15px;
+}
+
+header li {
+  display: inline;
+  padding: 0 20px;
+}
+
+header #branding {
+  margin-bottom: 10px;
+}
+
+header #branding h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+header nav {
+  margin-top: 10px;
+}
+
+header .highlight, header .current a {
+  background: rgb(45, 241, 45);
+  color: #e8491d;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: #cccccc;
+}
+
+/* Showcase */
+#showcase {
+  min-height: 400px;
+  background: url('../img/showcase.jpg') no-repeat 0 -400px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 100px;
+}
+
+#showcase h1 {
+  font-size: 55px;
+  margin-top: 0;
+}
+
+#showcase p {
+  font-size: 20px;
+}
+
+/* Newsletter */
+#newsletter {
+  background: #03ec03;
+  color: #080202;
+  padding: 15px;
+  text-align: center;
+}
+
+#newsletter h1 {
+  margin-bottom: 10px;
+}
+
+#newsletter form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#newsletter input[type="email"] {
+  padding: 10px;
+  width: 300px;
+  border: none;
+}
+
+/* Boxes */
+#boxes {
+  margin-top: 20px;
+  
+}
+
+#boxes .box {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+  background-color: #2bb6f7;
+  border-radius: 10%;
+  margin: 2px;
+}
+
+#boxes .box img {
+  width: 90px;
+}
+
+/* Sidebar */
+aside#sidebar {
+  float: right;
+  width: 30%;
+  margin-top: 10px;
+}
+
+aside#sidebar .quote input,
+aside#sidebar .quote textarea {
+  width: 90%;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+/* Main-col */
+article#main-col {
+  float: left;
+  width: 65%;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #e2f727;
+  color: rgb(197, 3, 3);
+  padding: 20px;
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
